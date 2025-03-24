@@ -577,90 +577,156 @@ swiper-slide:nth-child(10n) {
 
 
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f38;
+    color: white;
+    overflow-x: hidden;
+}
 
-/* Mobile Screens */
-@media screen and (max-width: 768px) {
-    .sami ul {
-        flex-direction: column;
-        gap: 20px;
-        width: auto;
-        padding: 15px;
-        left: 10%;
-        bottom: 10px;
-    }
-
-    .sami4 {
-        width: 200px;
-        height: 200px;
-    }
-
+/* Responsive Styles */
+@media screen and (max-width: 1200px) {
     .container7 {
-        flex-direction: column;
-        gap: 30px;
-        padding: 20px;
+        padding: 40px 100px;
+        gap: 40px;
     }
-
-    .container5 img {
-        width: 100%;
-        height: auto;
-        border-radius: 20px;
+    .container9 {
+        padding: 50px 50px;
     }
-
-    .container9 h3 {
-        width: 100%;
-        font-size: 18px;
-    }
-
-    .contact-card {
-        padding: 10px;
-    }
-
-    .form input, textarea {
-        width: 100%;
-    }
-
-    .navbar-nav {
-        text-align: center;
+    .navbar-toggler-icon{
+        background-color: #1c1c3d;
     }
 }
 
-/* Tablet Screens */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
+    .navbar-nav .nav-link {
+        font-size: 16px;
+        margin-right: 10px;
+    }
     .container7 {
         flex-direction: column;
-        gap: 40px;
+        padding: 40px;
     }
-
-    .sami ul {
-        gap: 40px;
-        padding: 20px;
+    .container9 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px;
+        gap30px
     }
-
-    .container5 {
-        padding: 20px;
-    }
-    @media screen and (max-width: 1024px) {
-        .container7,
-        .container9 {
-            gap: 30px; /* Tablet کے لیے تھوڑا کم gap */
-        }
-    }
-    
-    @media screen and (max-width: 768px) {
-        .container7,
-        .container9 {
-            gap: 50px; /* Mobile کے لیے مزید کم gap */
-        }
-    }
-    
-    @media screen and (max-width: 480px) {
-        .container7,
-        .container9 {
-            flex-direction: column; /* چھوٹی اسکرین پر ایک کے نیچے ایک کریں */
-            gap: 35px; /* کم از کم gap رکھیں */
-        }
+    .container5 img {
+        width: 280px;
+        height: auto;
     }
     .navbar-toggler-icon{
-        background-color: rgb(33, 69, 100);
+        background-color: #1c1c3d;
+    }
+    #mom{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .sami ul {
+        gap: 40px;
+        padding: 12px 18px;
+    }
+    .sami1 h2 {
+        font-size: 40px;
+    }
+    .sami1 h4 {
+        font-size: 22px;
+    }
+    .container4 h2,
+    .container6 h2 {
+        font-size: 50px;
+    }
+    .container7 {
+        padding: 35px;
+    }
+    .container9 h3 {
+        width: 90%;
+    }
+    .testimonial-card {
+        max-width: 90%;
+        padding: 25px;
+    }
+    .form button {
+        width: 80%;
+    }
+    .navbar-toggler-icon{
+        background-color: #1c1c3d;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sami ul {
+        gap: 30px;
+        padding: 10px 15px;
+    }
+    .sami1 h2 {
+        font-size: 35px;
+    }
+    .sami1 h4 {
+        font-size: 20px;
+    }
+    .container4 h2,
+    .container6 h2 {
+        font-size: 45px;
+    }
+    .container7 {
+        padding: 30px;
+    }
+    .container9 h3 {
+        width: 100%;
+    }
+    .container9{
+        gap: 30px;
+    }
+    .row {
+        gap: 40px;
+    }
+    .testimonial-card {
+        max-width: 100%;
+        padding: 20px;
+    }
+    .navbar-toggler-icon{
+        background-color: #1c1c3d;
+    }
+    .form button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar-toggler-icon{
+        background-color: #1c1c3d;
+    }
+    .navbar-brand {
+        font-size: 20px;
+    }
+    .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+    .sami ul {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    .sami1 h2 {
+        font-size: 28px;
+    }
+    .sami1 h4 {
+        font-size: 18px;
+    }
+    .container5 img {
+        width: 100%;
+    }
+    .container9 h3 {
+        font-size: 20px;
+    }
+    .testimonial-card {
+        padding: 15px;
     }
 }
