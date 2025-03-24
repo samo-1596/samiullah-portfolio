@@ -1,0 +1,666 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f38;
+    color: white;
+    /* height: 1200px; */
+    overflow-x: hidden;
+}
+/* nabar1 */
+.navbar {
+    background-color: #202d42; /* Dark background */
+    padding: 15px 0;
+    transition: all 0.3s ease-in-out;
+    .navbar {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+section {
+    margin-top: 60px; /* navbar کی height کے مطابق adjust کریں */
+}
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #ffcc00; /* Highlight on hover */
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 18px;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+/* .navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #ffcc00;
+} */
+
+/* Sticky Navbar */
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Mobile Navbar */
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+/* Dummy Sections for Testing */
+section {
+    padding-top: 50px; /* کم padding دیں */
+    margin-top: 0 !important;
+}
+
+
+
+
+
+
+/* navbar */
+.sami a{
+    color: white;
+
+}
+.sami ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px; /* کم کریں اگر زیادہ spacing ہو رہی ہے */
+    border: 2px solid #357eb2;
+    border-radius: 40px;
+    color: aqua;
+    padding: 15px 20px; /* padding کم کریں */
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #113c5c;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* سینٹر کرنے کے لیے */
+}
+
+.sami li{
+    cursor: pointer;
+    font-size: 23px;
+}
+.sami li:hover{
+    background-color:#1f1f38 ;
+    border-radius: 50px;
+}
+.sami1 p{
+    margin-top: 18px;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+}
+.sami1 h2{
+    margin-top: 18px;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+}
+.sami1 h4{
+    margin-top: 18px;
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+}
+.sami3{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    gap:10px;
+}
+.sami4{
+    margin-top: 38px !important;
+    justify-content: center;
+    display: flex;
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+    border: 2px solid #357eb2;
+    background-color: #357eb2;
+    border-radius: 130px 130px 0 0;
+}
+.container2 p{
+    margin-top: 38px;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+}
+.container2 h3{
+    margin-top:3px !important;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    color: #357eb2;
+}
+.container5 img{
+    background-color: #357eb2;
+    width: 330px;
+    height: 360px;
+    border-radius: 30px;
+    /* overflow-x: hidden; */
+}
+.container5 .card{
+    background-color:#357eb2 ;
+    font-size: 12px;
+    /* padding: 20px 20px; */
+    text-align: center;
+
+}
+#saleh3{
+    background-color: #357eb2;
+    /* border-radius: 30px; */
+}
+#saleh4{
+    font-size:20px ;
+    text-align: center;
+    margin: 10px;
+}
+#saleh2{
+    margin-left: auto;
+    /* margin-top: 20px; */
+}
+.container3{
+    padding: 100px 100px;
+}
+.container7,
+.container9 {
+    gap: 40px; /* Desktop view کے لیے مناسب gap */
+}
+#saleh2 button{
+    color: #357eb2;
+    border-color: #357eb2;
+}
+
+   /* Experince */
+.container4 p{
+    text-align: center;
+}
+.container4 h2{
+    text-align: center;
+    color: #357eb2;
+}
+.container6 p{
+    text-align: center;
+    font-size: 26px;
+}
+.container6 h2{
+    text-align: center;
+    color: #357eb2;
+    font-size: 65px;
+}
+.container5 .card-body{
+    background-color: #357eb2;
+    margin-top: 20px;
+}
+.container5{
+    padding: 40px 40px;
+}
+#hamza{
+    color: navy;
+    font-size: 30px;
+    text-align: center !important;
+}
+.card-body{
+    background-color: #357eb2;
+}
+#mom{
+    background-color: rgb(29, 29, 100);
+    border: 2px solid white;
+    border-radius: 0 0 60px 60px;
+    height: 530px;
+}
+.container7{
+    display: flex;
+    gap: 80px !important;
+    padding: 40px 200px;
+    text-align: center;
+}
+.container9 h3{
+    border: 2px solid #357eb2;
+    background-color: #357eb2;
+    border-radius: 0 0 30px 30px;
+    text-align: center;
+    width: 350px;
+
+
+}
+.container9{
+    padding: 70px 70px;
+}
+.container10 p{
+    text-align: center;
+    margin-top: 24px;
+}
+.contact-card{
+    border: 2px solid rgb(94, 94, 168) ;
+    background-color: #1f1f38;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+.contact-card a{
+    color: rgb(121, 195, 195);
+    text-decoration: none;
+}
+.contact-card a:hover{
+    color: #1f1f38;
+}
+.contact-card h2{
+    color: rgb(255, 255, 255);
+}
+.form{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.form input, textarea{
+    background-color: transparent;
+    padding: 15px;
+    border: 1px solid #357eb2;
+    color: white;
+}
+textarea{
+    height: 200px;
+}
+.form button{
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid #357eb2;
+    border-radius: 5px;
+    background-color: #357eb2;
+    color: #1f1f38;
+    width: 190px;
+    height: 40px;
+}
+.form button:hover{
+    background-color:white;
+
+}
+#sun{
+    font-size: 30px;
+}
+.bro a{
+    color: white;
+    text-decoration: none;
+}
+.bro ul{
+    margin-top: 40px;
+    cursor: pointer;
+    gap: 60px;
+    justify-content: center;
+    display: flex;
+    list-style: none
+}
+.bro li:hover{
+    color: #1f1f38;
+}
+.icons ul{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+    font-size: 40px;
+}
+body {
+    position: relative;
+    height: 100%;
+}
+swiper-container {
+    width: 240px;
+    height: 320px;
+}
+swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+swiper-slide:nth-child(1n) {
+    background-color: rgb(224, 230, 162);
+}
+
+swiper-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+}
+
+swiper-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+}
+
+swiper-slide:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+}
+
+swiper-slide:nth-child(5n) {
+    background-color: rgb(118, 163, 12);
+}
+
+swiper-slide:nth-child(6n) {
+    background-color: rgb(180, 10, 47);
+}
+
+swiper-slide:nth-child(7n) {
+    background-color: rgb(35, 99, 19);
+}
+
+swiper-slide:nth-child(8n) {
+    background-color: rgb(0, 68, 255);
+}
+
+swiper-slide:nth-child(9n) {
+    background-color: rgb(218, 12, 218);
+}
+
+swiper-slide:nth-child(10n) {
+    background-color: rgb(54, 94, 77);
+}
+#swiper1 p{
+    padding: 20px 20px;
+    color: black;
+    /* font-size: 11px; */
+}
+.testimonials {
+    padding: 60px 0;
+    text-align: center;
+}
+.testimonial-card {
+    max-width: 600px;
+    margin: auto;
+    background: #110f0f;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(31, 58, 175, 0.822);
+    transition: opacity 0.5s ease-in-out;
+    color: white;
+}
+.testimonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.testimonial-card h5 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.testimonial-card p.role {
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.stars {
+    color: #ffc107;
+}
+.buttons {
+    margin-top: 20px;
+}
+.buttons button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.buttons button:hover {
+    background: #0056b3;
+}
+.contact-form {
+    background-color: #1c1c3d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 90px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 40px !important;
+}
+.contact-form h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.contact-form button:hover {
+    background: #218838;
+}
+.whatsapp-button {
+    background: #25d366;
+}
+.whatsapp-button:hover {
+    background: #1ebe5d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           /*---------- media querry---------- */
+
+
+
+
+/* Mobile Screens */
+@media screen and (max-width: 768px) {
+    .sami ul {
+        flex-direction: column;
+        gap: 20px;
+        width: auto;
+        padding: 15px;
+        left: 10%;
+        bottom: 10px;
+    }
+
+    .sami4 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .container7 {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .container5 img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .container9 h3 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .contact-card {
+        padding: 10px;
+    }
+
+    .form input, textarea {
+        width: 100%;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+/* Tablet Screens */
+@media screen and (max-width: 1024px) {
+    .container7 {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .sami ul {
+        gap: 40px;
+        padding: 20px;
+    }
+
+    .container5 {
+        padding: 20px;
+    }
+    @media screen and (max-width: 1024px) {
+        .container7,
+        .container9 {
+            gap: 30px; /* Tablet کے لیے تھوڑا کم gap */
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .container7,
+        .container9 {
+            gap: 50px; /* Mobile کے لیے مزید کم gap */
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        .container7,
+        .container9 {
+            flex-direction: column; /* چھوٹی اسکرین پر ایک کے نیچے ایک کریں */
+            gap: 35px; /* کم از کم gap رکھیں */
+        }
+    }
+    .navbar-toggler-icon{
+        background-color: rgb(33, 69, 100);
+    }
+}
