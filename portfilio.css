@@ -229,7 +229,7 @@ section {
     background-color: rgb(29, 29, 100);
     border: 2px solid white;
     border-radius: 0 0 60px 60px;
-    height: 530px;
+    height: auto;
 }
 .container7{
     display: flex;
@@ -577,6 +577,8 @@ swiper-slide:nth-child(10n) {
 
 
 
+/* Default Styles (Already Provided by You) */
+/* Default Styles (Already Provided by You) */
 body {
     margin: 0;
     padding: 0;
