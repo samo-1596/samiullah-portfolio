@@ -619,7 +619,80 @@ swiper-slide:nth-child(10n) {
     }
 
     .sami li {
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .sami ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        width: auto;
+    }
+
+    .container7,
+    .container9 {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .container5 img {
+        max-width: 100%;
+    }
+
+    .sami1 h2 {
+        font-size: 35px;
+    }
+
+    .sami1 h4 {
+        font-size: 22px;
+    }
+
+    .container4 h2 {
+        font-size: 28px;
+    }
+
+    .container6 h2 {
+        font-size: 50px;
+    }
+
+    .testimonial-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand {
         font-size: 18px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+
+    .sami li {
+        font-size: 16px;
+    }
+
+    .sami1 h2 {
+        font-size: 30px;
+    }
+
+    .sami1 h4 {
+        font-size: 20px;
+    }
+
+    .container7 {
+        gap: 20px;
+    }
+
+    .container9 h3 {
+        width: 100%;
+        font-size: 22px;
+    }
+}        font-size: 18px;
     }
     .row{
         gap: 40px;
